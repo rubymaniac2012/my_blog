@@ -1,0 +1,400 @@
+<!-- Project file for the Zeus IDE - http://www.zeusedit.com -->
+<Project name="Blog" sorted="Yes" autosynch="" filename="" st_mtime="">
+    <SccEnable>On</SccEnable>
+    <SccComment></SccComment>
+    <SccProject></SccProject>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+    <TagEnable>On</TagEnable>
+    <TagNone>Off</TagNone>
+    <TagBuildNone>Off</TagBuildNone>
+    <TagBuildOnOpen>On</TagBuildOnOpen>
+    <TagBuildOnSave>On</TagBuildOnSave>
+    <TagNoIntellisense>Off</TagNoIntellisense>
+    <TagWorkspace>On</TagWorkspace>
+    <TagOutputDir>$zudzTags</TagOutputDir>
+    <TagInterval>6</TagInterval>
+    <TagBuildTimed></TagBuildTimed>
+    <Tags />
+    <Server></Server>
+    <UserID></UserID>
+    <Password></Password>
+    <LocalDir></LocalDir>
+    <RemoteDir></RemoteDir>
+    <Classes>Classes</Classes>
+    <Enumerations>Enumerations</Enumerations>
+    <Files>Project Files</Files>
+    <Functions>Functions</Functions>
+    <Imports>Imports</Imports>
+    <Interfaces>Interfaces</Interfaces>
+    <Macros>Macros</Macros>
+    <Packages>Packages</Packages>
+    <Prototypes>Prototypes</Prototypes>
+    <References>References</References>
+    <Structures>Structures</Structures>
+    <Typedefs>Typedefs</Typedefs>
+    <Variables>Variables</Variables>
+    <MakeFile></MakeFile>
+    <SearchPath></SearchPath>
+    <RegexFile></RegexFile>
+    <RegexLine></RegexLine>
+    <RegexInfo></RegexInfo>
+    <RegexError></RegexError>
+    <RegexWarning></RegexWarning>
+    <EnvLib></EnvLib>
+    <EnvPath>$MsBuildPath;$JREHomeBin;$JDKHomeBin;c:\dmd2\windows\bin;</EnvPath>
+    <EnvInclude></EnvInclude>
+    <EnvClassPath></EnvClassPath>
+    <DoxygenAsJava>On</DoxygenAsJava>
+    <DebugCaptureStdOut>Off</DebugCaptureStdOut>
+    <DebugCaptureStdErr>Off</DebugCaptureStdErr>
+    <DebugExecutable></DebugExecutable>
+    <DebugArguments></DebugArguments>
+    <DebugDirectory></DebugDirectory>
+    <DebugDebugger></DebugDebugger>
+    <ReleaseCaptureStdOut>Off</ReleaseCaptureStdOut>
+    <ReleaseCaptureStdErr>Off</ReleaseCaptureStdErr>
+    <ReleaseExecutable></ReleaseExecutable>
+    <ReleaseArguments></ReleaseArguments>
+    <ReleaseDirectory></ReleaseDirectory>
+    <ReleaseDebugger></ReleaseDebugger>
+    <DebugMake></DebugMake>
+    <DebugClean></DebugClean>
+    <DebugCompile></DebugCompile>
+    <DebugRebuild></DebugRebuild>
+    <DebugProjectOutput>Always</DebugProjectOutput>
+    <DebugCompilerOutput>Always</DebugCompilerOutput>
+    <DebugCompilerStdOut>On</DebugCompilerStdOut>
+    <DebugCompilerStdErr>On</DebugCompilerStdErr>
+    <DebugCompilerSaveAll>Off</DebugCompilerSaveAll>
+    <DebugCompilerReload>Off</DebugCompilerReload>
+    <DebugProjectStdOut>On</DebugProjectStdOut>
+    <DebugProjectStdErr>On</DebugProjectStdErr>
+    <DebugProjectSaveAll>Off</DebugProjectSaveAll>
+    <DebugProjectReload>Off</DebugProjectReload>
+    <ReleaseMake>make $ws</ReleaseMake>
+    <ReleaseClean>make clean</ReleaseClean>
+    <ReleaseCompile></ReleaseCompile>
+    <ReleaseRebuild>rebuild $ws</ReleaseRebuild>
+    <ReleaseProjectOutput>Always</ReleaseProjectOutput>
+    <ReleaseCompilerOutput>Always</ReleaseCompilerOutput>
+    <ReleaseCompilerStdOut>On</ReleaseCompilerStdOut>
+    <ReleaseCompilerStdErr>On</ReleaseCompilerStdErr>
+    <ReleaseCompilerSaveAll>Off</ReleaseCompilerSaveAll>
+    <ReleaseCompilerReload>Off</ReleaseCompilerReload>
+    <ReleaseProjectStdOut>On</ReleaseProjectStdOut>
+    <ReleaseProjectStdErr>On</ReleaseProjectStdErr>
+    <ReleaseProjectSaveAll>Off</ReleaseProjectSaveAll>
+    <ReleaseProjectReload>Off</ReleaseProjectReload>
+    <Folder name="Header Files" sorted="Yes" />
+    <Folder name="Resource Files" sorted="Yes" />
+    <Folder name="Source Files" sorted="Yes">
+        <File>.gitignore</File>
+        <File>Blog.ini</File>
+        <File>Blog.zpi</File>
+        <File>Blog.zwi</File>
+        <File>config.ru</File>
+        <File>Gemfile</File>
+        <File>Gemfile.lock</File>
+        <File>Rakefile</File>
+        <File>README.rdoc</File>
+        <Folder name="app" sorted="Yes">
+            <Folder name="assets" sorted="Yes">
+                <Folder name="images" sorted="Yes">
+                    <File>app\assets\images\rails.png</File>
+                </Folder>
+                <Folder name="javascripts" sorted="Yes">
+                    <File>app\assets\javascripts\application.js</File>
+                    <File>app\assets\javascripts\comments.js.coffee</File>
+                    <File>app\assets\javascripts\posts.js.coffee</File>
+                    <File>app\assets\javascripts\static_pages.js.coffee</File>
+                </Folder>
+                <Folder name="stylesheets" sorted="Yes">
+                    <File>app\assets\stylesheets\application.css</File>
+                    <File>app\assets\stylesheets\comments.css.scss</File>
+                    <File>app\assets\stylesheets\custom.css.scss</File>
+                    <File>app\assets\stylesheets\posts.css.scss</File>
+                    <File>app\assets\stylesheets\static_pages.css.scss</File>
+                </Folder>
+            </Folder>
+            <Folder name="controllers" sorted="Yes">
+                <File>app\controllers\application_controller.rb</File>
+                <File>app\controllers\comments_controller.rb</File>
+                <File>app\controllers\posts_controller.rb</File>
+                <File>app\controllers\sessions_controller.rb</File>
+                <File>app\controllers\static_pages_controller.rb</File>
+                <File>app\controllers\users_controller.rb</File>
+            </Folder>
+            <Folder name="helpers" sorted="Yes">
+                <File>app\helpers\application_helper.rb</File>
+                <File>app\helpers\comments_helper.rb</File>
+                <File>app\helpers\posts_helper.rb</File>
+                <File>app\helpers\sessions_helper.rb</File>
+                <File>app\helpers\static_pages_helper.rb</File>
+                <File>app\helpers\users_helper.rb</File>
+            </Folder>
+            <Folder name="mailers" sorted="Yes">
+                <File>app\mailers\.gitkeep</File>
+            </Folder>
+            <Folder name="models" sorted="Yes">
+                <File>app\models\.gitkeep</File>
+                <File>app\models\comment.rb</File>
+                <File>app\models\post.rb</File>
+                <File>app\models\user.rb</File>
+            </Folder>
+            <Folder name="views" sorted="Yes">
+                <Folder name="comments" sorted="Yes" />
+                <Folder name="layouts" sorted="Yes">
+                    <File>app\views\layouts\_footer.html.erb</File>
+                    <File>app\views\layouts\_header.html.erb</File>
+                    <File>app\views\layouts\application.html.erb</File>
+                </Folder>
+                <Folder name="posts" sorted="Yes">
+                    <File>app\views\posts\edit.html.erb</File>
+                    <File>app\views\posts\index.html.erb</File>
+                    <File>app\views\posts\new.html.erb</File>
+                    <File>app\views\posts\show.html.erb</File>
+                </Folder>
+                <Folder name="sessions" sorted="Yes">
+                    <File>app\views\sessions\new.html.erb</File>
+                </Folder>
+                <Folder name="shared" sorted="Yes">
+                    <File>app\views\shared\_error_messages.html.erb</File>
+                </Folder>
+                <Folder name="static_pages" sorted="Yes">
+                    <File>app\views\static_pages\about.html.erb</File>
+                    <File>app\views\static_pages\help.html.erb</File>
+                    <File>app\views\static_pages\home.html.erb</File>
+                </Folder>
+                <Folder name="users" sorted="Yes">
+                    <File>app\views\users\_form.html.erb</File>
+                    <File>app\views\users\edit.html.erb</File>
+                    <File>app\views\users\index.html.erb</File>
+                    <File>app\views\users\new.html.erb</File>
+                    <File>app\views\users\show.html.erb</File>
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="config" sorted="Yes">
+            <File>config\application.rb</File>
+            <File>config\boot.rb</File>
+            <File>config\database.yml</File>
+            <File>config\environment.rb</File>
+            <File>config\routes.rb</File>
+            <Folder name="environments" sorted="Yes">
+                <File>config\environments\development.rb</File>
+                <File>config\environments\production.rb</File>
+                <File>config\environments\test.rb</File>
+            </Folder>
+            <Folder name="initializers" sorted="Yes">
+                <File>config\initializers\backtrace_silencers.rb</File>
+                <File>config\initializers\inflections.rb</File>
+                <File>config\initializers\mime_types.rb</File>
+                <File>config\initializers\secret_token.rb</File>
+                <File>config\initializers\session_store.rb</File>
+                <File>config\initializers\wrap_parameters.rb</File>
+            </Folder>
+            <Folder name="locales" sorted="Yes">
+                <File>config\locales\en.yml</File>
+            </Folder>
+        </Folder>
+        <Folder name="db" sorted="Yes">
+            <File>db\development.sqlite3</File>
+            <File>db\schema.rb</File>
+            <File>db\seeds.rb</File>
+            <Folder name="migrate" sorted="Yes">
+                <File>db\migrate\20130503101440_create_posts.rb</File>
+                <File>db\migrate\20130503101452_create_comments.rb</File>
+                <File>db\migrate\20130524071302_create_users.rb</File>
+                <File>db\migrate\20130528093714_add_column_password_digest_to_users.rb</File>
+                <File>db\migrate\20130531064000_add_admin_to_users.rb</File>
+            </Folder>
+        </Folder>
+        <Folder name="doc" sorted="Yes">
+            <File>doc\README_FOR_APP</File>
+        </Folder>
+        <Folder name="lib" sorted="Yes">
+            <Folder name="assets" sorted="Yes">
+                <File>lib\assets\.gitkeep</File>
+            </Folder>
+            <Folder name="tasks" sorted="Yes">
+                <File>lib\tasks\.gitkeep</File>
+                <File>lib\tasks\sample_data.rake</File>
+            </Folder>
+        </Folder>
+        <Folder name="log" sorted="Yes">
+            <File>log\.gitkeep</File>
+            <File>log\development.log</File>
+        </Folder>
+        <Folder name="public" sorted="Yes">
+            <File>public\404.html</File>
+            <File>public\422.html</File>
+            <File>public\500.html</File>
+            <File>public\favicon.ico</File>
+            <File>public\robots.txt</File>
+        </Folder>
+        <Folder name="script" sorted="Yes">
+            <File>script\rails</File>
+        </Folder>
+        <Folder name="test" sorted="Yes">
+            <File>test\test_helper.rb</File>
+            <Folder name="fixtures" sorted="Yes">
+                <File>test\fixtures\.gitkeep</File>
+                <File>test\fixtures\comments.yml</File>
+                <File>test\fixtures\posts.yml</File>
+            </Folder>
+            <Folder name="functional" sorted="Yes">
+                <File>test\functional\.gitkeep</File>
+                <File>test\functional\comments_controller_test.rb</File>
+                <File>test\functional\posts_controller_test.rb</File>
+                <File>test\functional\static_pages_controller_test.rb</File>
+            </Folder>
+            <Folder name="integration" sorted="Yes">
+                <File>test\integration\.gitkeep</File>
+            </Folder>
+            <Folder name="performance" sorted="Yes">
+                <File>test\performance\browsing_test.rb</File>
+            </Folder>
+            <Folder name="unit" sorted="Yes">
+                <File>test\unit\.gitkeep</File>
+                <File>test\unit\comment_test.rb</File>
+                <File>test\unit\post_test.rb</File>
+                <Folder name="helpers" sorted="Yes">
+                    <File>test\unit\helpers\comments_helper_test.rb</File>
+                    <File>test\unit\helpers\posts_helper_test.rb</File>
+                    <File>test\unit\helpers\static_pages_helper_test.rb</File>
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="tmp" sorted="Yes">
+            <Folder name="cache" sorted="Yes">
+                <Folder name="assets" sorted="Yes">
+                    <Folder name="C91" sorted="Yes">
+                        <Folder name="A20" sorted="Yes">
+                            <File>tmp\cache\assets\C91\A20\sprockets%2F53640067d96589fbc39f702a6e19b645</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="CA4" sorted="Yes">
+                        <Folder name="8B0" sorted="Yes">
+                            <File>tmp\cache\assets\CA4\8B0\sprockets%2F21510ea8264eaa94d48104f903b60f39</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="CD8" sorted="Yes">
+                        <Folder name="370" sorted="Yes">
+                            <File>tmp\cache\assets\CD8\370\sprockets%2F357970feca3ac29060c1e3861e2c0953</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="CDF" sorted="Yes">
+                        <Folder name="860" sorted="Yes">
+                            <File>tmp\cache\assets\CDF\860\sprockets%2F5d9d5937708e0313f4030b9ed5055ecb</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="CE2" sorted="Yes">
+                        <Folder name="050" sorted="Yes">
+                            <File>tmp\cache\assets\CE2\050\sprockets%2Ff79f08e0936b648bb76cd32208c3340c</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="CE5" sorted="Yes">
+                        <Folder name="5C0" sorted="Yes">
+                            <File>tmp\cache\assets\CE5\5C0\sprockets%2Faafc1736e0159938156d150dff06985c</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="CF0" sorted="Yes">
+                        <Folder name="DA0" sorted="Yes">
+                            <File>tmp\cache\assets\CF0\DA0\sprockets%2Fd7d5b37686831d37c4dd75e645f5e016</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="CF5" sorted="Yes">
+                        <Folder name="180" sorted="Yes">
+                            <File>tmp\cache\assets\CF5\180\sprockets%2F625ddf58d023639633fa8e786a0e98a9</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="D03" sorted="Yes">
+                        <Folder name="BD0" sorted="Yes">
+                            <File>tmp\cache\assets\D03\BD0\sprockets%2Fcc96d4f5f41bc2990cc2b1a151027852</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="D0B" sorted="Yes">
+                        <Folder name="AF0" sorted="Yes">
+                            <File>tmp\cache\assets\D0B\AF0\sprockets%2Faada318492cd92ae01885ef3911e2717</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="D17" sorted="Yes">
+                        <Folder name="2B0" sorted="Yes">
+                            <File>tmp\cache\assets\D17\2B0\sprockets%2F0c6c563476f3c0a819d0d8ffd1684c29</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="D30" sorted="Yes">
+                        <Folder name="3B0" sorted="Yes">
+                            <File>tmp\cache\assets\D30\3B0\sprockets%2F40e4dc27315c8bb23ab744a9b4109d6d</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="D32" sorted="Yes">
+                        <Folder name="A10" sorted="Yes">
+                            <File>tmp\cache\assets\D32\A10\sprockets%2F13fe41fee1fe35b49d145bcc06610705</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="D4E" sorted="Yes">
+                        <Folder name="1B0" sorted="Yes">
+                            <File>tmp\cache\assets\D4E\1B0\sprockets%2Ff7cbd26ba1d28d48de824f0e94586655</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="D5A" sorted="Yes">
+                        <Folder name="EA0" sorted="Yes">
+                            <File>tmp\cache\assets\D5A\EA0\sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="D93" sorted="Yes">
+                        <Folder name="C50" sorted="Yes">
+                            <File>tmp\cache\assets\D93\C50\sprockets%2Feb955148dff1a927d71ba221df32d1ac</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="DAB" sorted="Yes">
+                        <Folder name="060" sorted="Yes">
+                            <File>tmp\cache\assets\DAB\060\sprockets%2Ff767bf7733f9d255bda5d7ad033ab87f</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="DDC" sorted="Yes">
+                        <Folder name="400" sorted="Yes">
+                            <File>tmp\cache\assets\DDC\400\sprockets%2Fcffd775d018f68ce5dba1ee0d951a994</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="E04" sorted="Yes">
+                        <Folder name="890" sorted="Yes">
+                            <File>tmp\cache\assets\E04\890\sprockets%2F2f5173deea6c795b8fdde723bb4b63af</File>
+                        </Folder>
+                    </Folder>
+                    <Folder name="E25" sorted="Yes">
+                        <Folder name="4C0" sorted="Yes">
+                            <File>tmp\cache\assets\E25\4C0\sprockets%2Fde2fd9fd11c04a582cdbbe3d84a35ae6</File>
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <Folder name="sass" sorted="Yes">
+                    <Folder name="5a603425abe702b75e02879eff4020c2422cdb3c" sorted="Yes">
+                        <File>tmp\cache\sass\5a603425abe702b75e02879eff4020c2422cdb3c\comments.css.scssc</File>
+                        <File>tmp\cache\sass\5a603425abe702b75e02879eff4020c2422cdb3c\posts.css.scssc</File>
+                    </Folder>
+                </Folder>
+            </Folder>
+            <Folder name="pids" sorted="Yes">
+                <File>tmp\pids\server.pid</File>
+            </Folder>
+            <Folder name="sessions" sorted="Yes" />
+            <Folder name="sockets" sorted="Yes" />
+        </Folder>
+        <Folder name="vendor" sorted="Yes">
+            <Folder name="assets" sorted="Yes">
+                <Folder name="javascripts" sorted="Yes">
+                    <File>vendor\assets\javascripts\.gitkeep</File>
+                </Folder>
+                <Folder name="stylesheets" sorted="Yes">
+                    <File>vendor\assets\stylesheets\.gitkeep</File>
+                </Folder>
+            </Folder>
+            <Folder name="plugins" sorted="Yes">
+                <File>vendor\plugins\.gitkeep</File>
+            </Folder>
+        </Folder>
+    </Folder>
+</Project>

@@ -1,0 +1,29 @@
+<div class="row">
+ <div class="span6 offset3">
+
+ <%= form_for @user do |f| %>
+
+ <%= render 'shared/error_messages' %>
+
+   <% if false %>
+   This is a comment. Rails convention of using a dedicated shared/directory
+   for partials expected to be used in views across multiple controllers
+   <% end %>
+
+ <%= f.label :Name %>
+ <%= f.text_field :name %></br>
+
+ <%= f.label :Email %>
+ <%= f.text_field :email %></br>
+
+ <%= f.label :Password %>
+ <%= f.password_field :password %></br>
+
+ <%= f.label :Password_Confirmation %>
+ <%= f.password_field :password_confirmation %></br>
+
+ <%= f.submit :Submit %>
+
+  <% end %>
+ </div>
+</div>
